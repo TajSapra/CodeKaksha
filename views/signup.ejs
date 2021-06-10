@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=locals.title%></title>
+    <link rel="stylesheet" type="text/css" href="/css/signup.css">
+</head>
+<body>
+    <header id="header">
+        <a href="/">
+        <img id="logo-header" src="/mediafiles/facebook_cover_photo_2.jpg">
+        </a>
+    </header>
+    <main>
+        <form method="POST" action="/createuser">
+            <input type="email" name="email" placeholder="Email-Id">
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="text" name="institute" placeholder="Institution">
+            <input type="password" name="pass1" placeholder="Enter Password">
+            <input type="password" name="pass2" placeholder="Re-Enter Password">
+            <input type="submit">
+        </form>
+        <a href="/" id="link1_signup">
+            Back to Home Page
+        </a>
+        <a href="/login" id="link2_signup">
+            Already have an account
+        </a>
+    </main>
+    <footer>
+    
+    </footer>    
+</body>
+</html>

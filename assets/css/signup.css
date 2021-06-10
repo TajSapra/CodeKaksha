@@ -1,0 +1,77 @@
+#header{
+    text-align: center;
+}
+form{
+    position: absolute; 
+    top: 39%; 
+    left: 23%; 
+}
+#logo-header{
+    height: 16rem;
+}
+body input {
+    color: orange;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid white;
+}
+input:active{
+    box-shadow: none;
+    transition-duration: 0.5s;
+}
+input:focus{
+    /* border: 0; */
+    outline: none;
+}
+::placeholder{
+    color: orange;
+    font-size: 1.1rem;
+}
+body input[type=text], body input[type=password], body input[type=name],body input[type=email]{
+    width: 100%;
+}  
+body input[type=text], body input[type=password], body input[type=name],body input[type=submit]{
+    margin-top: 6%;
+}  
+body input[type=submit] {
+    background-color: inherit;
+    border: 1px solid orange;
+    color: orange;
+    font-size: 120%;
+    padding: 2.35% 6.7%;
+    text-decoration: none;
+    cursor: pointer; 
+    position: absolute;
+    top: 100%;
+    left: 38%;
+}
+#link1_signup{
+    color: orange; text-decoration: none; position: absolute; top: 90%; left: 31%;
+}
+#link2_signup{
+    color: orange; text-decoration: none; position: absolute; top: 90%; left: 63%;
+}
+header{
+    text-align: center;
+}
+@media (max-width:1225px) and (min-width:900px){
+    body input[type=submit]{
+        top: 97%;
+        left: 29%;
+    }
+}
+@media (max-width:1225px){
+    body input[type=text], body input[type=password], body input[type=name],body input[type=email]{
+        width: 81%;
+    }  
+}
+@media (max-width:450px){
+    #link1_signup{
+        top: 79%;
+        left: 21%;
+    }
+    #link2_signup{
+        top: 79%;
+        left: 73%;
+    }
+}
