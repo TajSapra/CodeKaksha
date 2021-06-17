@@ -1,3 +1,4 @@
+const tokeninput=require('../tokens/tokens');
 const nodeMailer=require('../config/nodemailer');
 
 exports.login=(user)=>{
@@ -7,7 +8,7 @@ exports.login=(user)=>{
         date:Date()
     }, '/loginmail.ejs');
     nodeMailer.transporter.sendMail({
-        from:'sapra.taj@gmail.com',
+        from:tokeninput.emailid,
         to:user.email,
         subject:"Log in alert",
         html:Htmlstring
