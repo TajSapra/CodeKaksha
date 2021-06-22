@@ -1,10 +1,10 @@
 # CodeKaksha
 
 
-Hello. I(Taj Sapra) and my friend(Shubham) are working on a website for coders. Here u can learn, ask doubts, use ide for practice, give contributions like testimonials and blogs.
-We have implemented a major part of it.
-We have removed node js modules and the api tokens for both login features and compiler api, please use your own.
-We have used:
+Hello. I(Taj Sapra) am working on a website for coders. Here u can learn, ask doubts, use ide for practice, give contributions like testimonials and blogs.
+I have implemented a major part of it.
+I have removed node js modules and the api tokens for both login features and compiler api, please use your own.
+I have used:
   1) HTML(EJS), CSS, Javascript for frontend
   2) Mongo db for database
   3) Express and NodeJs for backend
